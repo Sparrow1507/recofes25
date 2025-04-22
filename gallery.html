@@ -28,28 +28,61 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom-style.css">
-
+    <style>
+      body {
+        padding-top: 70px; /* Adjust the value according to your navbar height */
+      }
+      </style>
   </head>
   <body>
 
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><img src="images/tlsl.png"></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: -6px;">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-			  <li class="nav-item"><a href="#gallery" class="nav-link">Posters</a></li>
-	          <li class="nav-item cta mr-md-2"><a href="register.html" class="nav-link">Register</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
+	  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white; z-index: 1030;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/tlsl.png" alt="Logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link"
+                 style="color: black; font-weight: 500; transition: color 0.3s;"
+                 onmouseover="this.style.color='#007bff'"
+                 onmouseout="this.style.color='black'">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="events.html" class="nav-link"
+                 style="color: black; font-weight: 500; transition: color 0.3s;"
+                 onmouseover="this.style.color='#007bff'"
+                 onmouseout="this.style.color='black'">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link"
+                 style="color: black; font-weight: 500; transition: color 0.3s;"
+                 onmouseover="this.style.color='#007bff'"
+                 onmouseout="this.style.color='black'">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link"
+                 style="color: black; font-weight: 500; transition: color 0.3s;"
+                 onmouseover="this.style.color='#007bff'"
+                 onmouseout="this.style.color='black'">Posters</a>
+            </li>
+            <li class="nav-item ml-lg-3">
+              <a href="register.html"
+                 style="background-color: #007bff; color: white; padding: 6px 20px; border-radius: 50px;
+                        text-decoration: none; font-weight: bold; display: inline-block; transition: background-color 0.3s;"
+                 onmouseover="this.style.backgroundColor='#0056b3'"
+                 onmouseout="this.style.backgroundColor='#007bff'">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- END nav -->
 
     <div class="container" style="margin-top: -450px;">
@@ -161,7 +194,7 @@
             <img src="/Recofes'25/images/poster/cin.jpg" alt="Gallery Image 1" style="width: 100%; height: auto; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
           </a>
         </div>
-        
+
         <!-- Image 9 -->
         <div class="ftco-animate" style="overflow: hidden; border-radius: 10px;">
           <a href="/Recofes'25/images/poster/START MUSIC.jpg" data-lightbox="recofes-gallery">
